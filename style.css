@@ -1,0 +1,49 @@
+.myTitle{
+    margin: 20px 0;
+}
+
+.myTitle h1{
+    color:#025175;
+    font-weight: 700;
+}
+
+.displayStudents {
+    margin: 0 auto;
+ }
+
+.studentImg{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.studentId{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.input_title{
+    color: #047FB8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.navigaet{
+    margin: 20px 0;
+}
+
+#counterDisplay{
+    width:auto;
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+
+.currentPosition{
+    font-size: 22px;
+    font-weight: 600;
+    color: #F29D0A;
+}
+
+.arraryLength{
+    font-size: 22px; 
+}

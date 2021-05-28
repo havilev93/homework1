@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>student</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+
+    <!-- MY CSS -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- div for display students -->
+    <div class="container">
+        <div class="row">
+
+            <div class="mx-auto col-8 myTitle">
+                <h1>Studnet ID</h1>
+            </div>
+
+            <div id="displayStudents" class="mx-auto col-8 displayStudents"></div>
+
+            <!-- div for pass between the students and showing the number -->
+            <div class="mx-auto col-8 navigaet">
+                <button onclick="_showFirst()"> << First </button>
+                <button onclick="_showPrevious()"> < Previous </button>
+                <span id="counterDisplay"></span>
+                <button onclick="_showNext()">Next ></button>
+                <button onclick="_showLast()">Last >></button>
+                <button onclick="_deleteMe(displayStudents)">Delete Me!</button>
+            </div>
+
+            <div class="mx-auto col-8 myForm">
+                <!-- inputs to add new student -->
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="tel" id="tel" placeholder="Your Phone">
+                <input type="email" id="email" placeholder="Your Email">
+                <!-- <input type="file" id="fileImg" placeholder="upload your image"> -->
+                <button onclick="_addStudent()">Add</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Bootastarp JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- MY JS -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
